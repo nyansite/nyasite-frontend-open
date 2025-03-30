@@ -139,8 +139,8 @@ function UploadCoverContnet({ Token, GetCoverUrl, Display }) {
                     ref={cropperRef}
                     marginWidth={800}
                     marginHeight={450}
-                    minCropBoxWidth={400}
-                    minCropBoxHeight={225}
+                    minCropBoxWidth={800}
+                    minCropBoxHeight={450}
                     viewMode={2}
                     cropBoxResizable={false}
                     aspectRatio={16 / 9}
