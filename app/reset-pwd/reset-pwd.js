@@ -11,7 +11,6 @@ export default function ResetPwd() {
         totalSeconds,
         restart,
     } = useTimer({ time });
-    console.log(totalSeconds)
     const [warning, setWarning] = useState("")
     async function getVerCodeInner(event) {
         event.preventDefault();
