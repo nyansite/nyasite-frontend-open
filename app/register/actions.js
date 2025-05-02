@@ -9,7 +9,7 @@ function get_header() {
 }
 
 export async function GetVerCodeHandle(formData) {
-    const res = await fetch("http://localhost:8000/api/get_ver_code_reset_pwd", {
+    const res = await fetch("http://localhost:8000/api/get_ver_code_register", {
         method:"POST",
         body:formData,
         headers:{cookie:get_header().cookie} })
