@@ -234,7 +234,10 @@ export function Author({ Author }) {
         case 0:
             subscribeDisplay = <div className="flex justify-start items-center text-slate-400"><button onClick={() => subscribe(Author.Id)}>取消关注</button></div>;
             break
-        case 1, 2, 3, 4:
+        case 1:
+        case 2:
+        case 3:
+        case 4:
             subscribeDisplay = <a className="flex justify-start items-center text-slate-400"><div>社团管理</div></a>;
             break
         default:
